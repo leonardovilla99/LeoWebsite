@@ -7,20 +7,21 @@
 html,
 body
 {
-    overflow: hidden;
+    background-color: #172b4f;
 }
 
 .webgl
 {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     outline: none;
+    z-index: 10;
 }
 
 .logo{
     position: fixed;
-    z-index: 1;
+    z-index: 11;
     width: 100%;
     height: 100%;
     top: 20px;
@@ -32,11 +33,25 @@ body
     margin-left: auto;
     margin-right: auto;
 }
+#menu-button{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    z-index: 9;
+    cursor: pointer;
+}
+#menu-button div{
+    width: 30px;
+    height: 4px;
+    background-color: #00d7b4;
+    border-radius: 2px;
+    margin: 5px 7px;
+}
 .menu{
     position: fixed;
     width: 100%;
     height: 100%;
-    z-index: 10;
+    z-index: 11;
 }
 .menu h2{
     color: #00d7b4;
@@ -70,5 +85,99 @@ body
 #magicMouseCursor, #magicPointer{
     z-index: 1000;
 }
+#pagine{
+    margin: 0 5%;
+    margin-top: 20px;
+}
+#pagine h2{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #00d7b4;
+    font-weight: 800;
+    font-size: 6em;
+    opacity: 0.3;
+}
+#pagine h3{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #00d7b4;
+    font-weight: 700;
+    font-size: 3em;
+    margin-top: -1em;
+    position: relative;
+}
+#pagine h4{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #00d7b4;
+    font-weight: 700;
+    font-size: 1.25em;
+    margin-bottom: 15px;
+}
+#pagine p{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1em;
+    margin: 10px 0;
+}
+.insider-box{
+    display: inline-table;
+    width: 45%;
+    margin: 0 2.5%;
+    margin-top: 4em;
+}
+.container-skill{
+    background-color: #c6f0e9;
+    width: 100%;
+    height: 15px;
+    border-radius: 1em;
+}
+.interno-skill{
+    background-color: #00d7b4;
+    height: 15px;
+    border-radius: 1em;
+    
+}
+#about-pagina{
+    margin-bottom: 3em;
+}
+.cento{
+    width: 100%;
+}
+.novanta{
+    width: 90%;
+}
+.ottanta{
+    width: 80%;
+}
+.settanta{
+    width: 70%;
+}
+.sesanta{
+    width: 60%;
+}
+.cinquanta{
+    width: 50%;
+}
+.quaranta{
+    width: 40%;
+}
+.trenta{
+    width: 30%;
+}
+.venti{
+    width: 20%;
+}
+.dieci{
+    width: 10%;
+}
+
+
+/** PROVA PAGINE INTERNE **/
+/* #pagina-iniziale{
+    display: none;
+} */
 
 /*# sourceMappingURL=main.css.map*/

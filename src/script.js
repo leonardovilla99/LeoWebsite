@@ -152,6 +152,12 @@ contact.addEventListener('click', event => {
     page.style.display = "none";
 });
 
+const menuButton = document.getElementById("menu-button")
+
+menuButton.addEventListener('click', event => {
+    page.style.display = "block";
+});
+
 /**
  * Renderer
  */
